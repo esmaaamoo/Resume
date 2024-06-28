@@ -1,0 +1,47 @@
+
+/* Basic styling for the page */
+body {
+    font-family:corurier 'Courier New', monospace, sans-serif;
+    line-height: 1.0;
+    padding: 20px;
+    background-color: #091c35;
+    
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ddd;
+
+}
+table {
+    width: 100%;
+    height: fit-content;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+}
+th, td {
+    border: 5px solid steelblue ;
+    padding: 20px;
+    text-align: left;
+    background-color: lightgrey;
+    font-size:20px ;
+}
+th {
+    background-color: whitesmoke;
+}
+img {
+    max-width: 50%;
+    height: 250px;
+    display: block;
+    margin: 0 auto; /* Center the image */
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+footer p {
+    font-size: 10px;
+    color: rgb(254, 254, 255);
+    text-align: center;
+    background-color: #091c35;
+}

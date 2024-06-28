@@ -1,0 +1,329 @@
+/* General Styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    line-height: 1.2em;
+    background: whitesmoke;
+    color: black;
+    box-sizing: border-box;
+}
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background:lightgray;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Flexbox Layout */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+}
+.flex-main {
+    flex: 1;
+    padding: 20px 0;
+}
+
+/* Header and Navigation */
+header {
+    background: #091c35    ;
+    color: #fff;
+    padding: 1em 5px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    text-decoration: underline;
+    text-align: center;
+    color:whitesmoke;
+    
+}
+.logo {
+    display: flex; /* Ensures the logo is displayed as a block element */
+    justify-content:center; /* Centers the logo horizontally */
+    align-items: left; /* Centers the logo vertically */
+}
+
+.logo img {
+    max-width: 100px; /* Ensures the logo does not exceed its container's width */
+    height: auto;/* Maintains the aspect ratio of the logo */
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+nav ul li a {
+    color: steelblue;
+    text-decoration: none;
+    color:whitesmoke;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin: 1em 0;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Form Styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 3em;
+    background:#091c35;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5em;
+    color:whitesmoke;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid, steelblue;
+    border-radius: 4px;
+}
+
+form button {
+    background:whitesmoke;
+    color: midnightblue;
+    border: none;
+    padding: 0.75em 1.5em;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+}
+
+form button:hover {
+    background: lightblue ;
+}
+
+/* Footer */
+footer {
+    background: #091c35;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+/* Home Page Specific Styles */
+.home {
+    text-align:center;
+    font-size: large;
+    font-family: monospace;
+    color: #091c35;
+}
+.profile-pic{
+    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+}
+.container p{
+    text-align: center;
+}
+.button {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: midnightblue; /* Blue background */
+    color: white; /* White text */
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+/* Skills Page Specific Styles */
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid midnightblue;
+    text-align: justify;
+}
+
+/* Education Page Specific Styles */
+.education ul {
+    list-style: none;
+    padding: 0;
+}
+
+.education ul li {
+    background: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #333;
+    text-align: left;
+}
+
+.education h3 {
+    margin: 0;
+    text-align: center;
+}
+.education-content{
+    margin-bottom: 20px; /* Space between education items */
+    background-color:whitesmoke; /* White background for each item */
+    padding: 15px; /* Padding inside each item */
+    border: 2px solid midnightblue;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+    text-align:center;
+}
+
+.education-content h2, .education-item h3, .education-item p {
+    margin: 10px 0; /* Space between individual elements */
+    text-align:left;
+}
+
+.education-content h2 {
+    color: black; /* Midnight blue color for h2 elements */
+    text-align:center;
+}
+
+.education-content h3 {
+    color: darkblue ; /* Slightly lighter shade of blue for h3 elements */
+    text-align: left;
+}
+
+.education-content p {
+    color: #333; /* Dark grey color for paragraph text */
+    text-align: left;
+
+}
+/* Header and Navigation */
+header {
+    background: #091c35  ;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+header h1 {
+    margin: 0;
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background:lightgray;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container h2{
+    text-align: center;
+}   
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: midnightblue;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+section p {
+    color: black;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+ul li {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+ul li strong {
+    font-weight: bold;
+    margin-right: 5px;
+    text-align:left;
+}
+
+footer {
+    background: #091c35    ;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
